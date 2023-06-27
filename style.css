@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    background-color:white;
+}
+.container-one{
+  box-shadow: 0 0 5px black;
+  flex-basis: 20%;
+}
+.img-box{
+    width: 300px;
+    height: 50px;
+    list-style-type: none;
+    background-color: white;
+}
+.img-logo{
+    /* background-color: white; */
+    margin: 0px 5px 0 5px;
+    text-decoration: none;
+    padding:15px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-box:hover{
+    background-color: #d3d7cf;
+    cursor: pointer;
+}
+
+.new-box{
+    width: 300px;
+    height: 55px;
+    padding: 15px;
+    list-style-type: none;
+    background-color: #616161;
+}
+.new-msg{
+    color: white;
+    margin: 0px 5px 0 5px;
+    text-decoration: none;
+    padding:15px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.new-box:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.box{
+    width: 300px;
+    height: 55px;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.item{
+    /* color: white; */
+    color: black;
+    margin: 0px 5px 0 5px;
+    text-decoration: none;
+    padding:15px 6px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover{
+    background-color: #c5c0c0;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.container-two{
+    flex-basis: 80%;
+    margin: 12px 0 0 12px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 15px;
+}
+
+
+#checkbtn{
+    width: 45px;
+    padding: 5px 13px;
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+#checkbtn:hover{
+    background-color: #d3d7cf;
+}
+
+.main-h1{
+    background-color: red;
+    color: black;
+    width: 45px;
+    padding: 5px 13px;
+    font-size: 20px;
+    display: none;
+    cursor: pointer
+}
+.main-h1:hover{
+    background-color: #d3d7cf;
+}
+
+.main-div{
+    background-color:white ;
+  }
+  
+.img-man{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+  }
+  
+.subject{
+    font-size: 18px;
+    height: 27px;
+    opacity: 0.60;
+    margin: 8px 0;
+  }
+  
+.time{
+    font-size: 18px;
+    height: 27px;
+    margin: 8px 0 10px 0;
+  }
+.nav-bar{
+      display: flex;
+      list-style-type: none;
+      color: black;
+  }
+  
+  .reply{
+    background-color: #d3d7cf;
+    color:black;
+    margin:8px 5px 0 0;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .reply:hover{
+      background-color: #888a85;
+      color: black;
+      cursor: pointer;
+  }
+  
+  
+  .Forward{
+    background-color: #d3d7cf;
+    color:black;
+    margin: 8px 5px 0 0;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .Forward:hover{
+      background-color: #888a85;
+      color: black;
+      cursor: pointer;
+  }
+  
+  
+  p {
+      display: block;
+  }
